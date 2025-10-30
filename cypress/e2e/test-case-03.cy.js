@@ -2,8 +2,6 @@
 
 describe('Caso de teste 3: Login do usuário com e-mail e senha incorretos', () => {
   /*
-    1. Inicie o navegador
-    2. Navegue até a URL 'http://automationexercise.com'
     3. Clique no link 'Signup / Login'
     4. Verifique se a seção 'Login to your account' está visível
     5. Digite um e-mail ou senha incorretos
@@ -12,6 +10,7 @@ describe('Caso de teste 3: Login do usuário com e-mail e senha incorretos', () 
   */
 
   it('placeholder - passos descritos no comentário', () => {
-    // Teste ainda não implementado - passos estão no comentário acima
+    home.acessarPaginaInicial()
+    home.verificarSliderVisivel()
   })
 })

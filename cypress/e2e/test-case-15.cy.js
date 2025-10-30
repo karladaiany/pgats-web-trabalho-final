@@ -2,8 +2,6 @@
 
 describe('Caso de teste 15: Realizar pedido: Registrar antes de finalizar a compra', () => {
   /*
-    1. Inicie o navegador
-    2. Navegue até a URL 'http://automationexercise.com'
     3. Clique no botão 'Signup / Login'
     4. Prrencha todos os detalhes na inscrição e crie uma conta
     5. Marque  'ACCOUNT CREATED!' e clique em 'Continue'
@@ -22,6 +20,7 @@ describe('Caso de teste 15: Realizar pedido: Registrar antes de finalizar a comp
   */
 
   it('placeholder - passos descritos no comentário', () => {
-    // Teste ainda não implementado - passos estão no comentário acima
+    home.acessarPaginaInicial()
+    home.verificarSliderVisivel()
   })
 })

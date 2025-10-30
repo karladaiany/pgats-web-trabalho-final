@@ -2,8 +2,6 @@
 
 describe('Caso de teste 9: Pesquisar produto', () => {
   /*
-    1. Inicie o navegador
-    2. Navegue até a URL 'http://automationexercise.com'
     3. Clicar no botão 'Products'
     4. Verificar se o usuário foi direcionado para a página 'ALL PRODUCTS' com sucesso
     5. Localize o campo de busca de produtos (search) e digite o nome do produto a ser buscado
@@ -13,6 +11,7 @@ describe('Caso de teste 9: Pesquisar produto', () => {
   */
 
   it('placeholder - passos descritos no comentário', () => {
-    // Teste ainda não implementado - passos estão no comentário acima
+    home.acessarPaginaInicial()
+    home.verificarSliderVisivel()  
   })
 })
